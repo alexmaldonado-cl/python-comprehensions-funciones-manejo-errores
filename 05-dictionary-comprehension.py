@@ -1,4 +1,4 @@
-def printLines():
+def print_lines():
     print('-' * 60)
 
 dictionary = {}
@@ -8,13 +8,13 @@ for i in range(1, 11):
 
 print(dictionary)
 
-printLines()
+print_lines()
 
 
-dictionaryV2 = { i: (i+1) * 2 for i in range(0, 10) }
-print(dictionaryV2)
+dictionary_v2 = { i: (i+1) * 2 for i in range(0, 10) }
+print(dictionary_v2)
 
-printLines()
+print_lines()
 
 import random
 
@@ -26,19 +26,19 @@ for country in countries:
 
 print(population)
 
-printLines()
+print_lines()
 
 populationV2 = { country: random.randint(1, 1000) for country in countries }
 print(populationV2)
 
-printLines()
+print_lines()
 
 names = ['nico', 'zule', 'santi']
 ages  = [12, 56, 98]
 
 print(list(zip(names, ages))) # [('nico', 12), ('zule', 56), ('santi', 98)]
 
-printLines()
+print_lines()
 
-newDictionary = { name: age for (name, age) in zip(names, ages) }
-print(newDictionary) #{'nico': 12, 'zule': 56, 'santi': 98}
+new_dictionary = { name: age for (name, age) in zip(names, ages) }
+print(new_dictionary) #{'nico': 12, 'zule': 56, 'santi': 98}

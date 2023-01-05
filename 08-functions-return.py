@@ -1,5 +1,5 @@
 
-def sumWithRange(min, max):
+def sum_with_range(min, max):
     print('Parameters:', min, max)
     sum = 0
     for x in range(min, max):
@@ -7,7 +7,7 @@ def sumWithRange(min, max):
 
     return sum
 
-result = sumWithRange(1, 10) #45
+result = sum_with_range(1, 10) #45
 print(result)
-result2 = sumWithRange(result, result+10)
+result2 = sum_with_range(result, result+10)
 print(result2)

@@ -1,10 +1,10 @@
 print('Hello')
 
-def myPrint(text):
+def my_print(text):
     print(text * 2)
 
-myPrint('This is a text')
-myPrint('Hello')
+my_print('This is a text')
+my_print('Hello')
 
 a = 10
 b = 90
@@ -12,7 +12,7 @@ b = 90
 c = a + b
 
 def suma(a, b):
-    myPrint(a + b)
+    my_print(a + b)
 
 suma(44, 6)#50
 suma(8, 6)#14
